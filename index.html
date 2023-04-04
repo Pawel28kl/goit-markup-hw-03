@@ -28,34 +28,38 @@
     </head>
     <body>
         <header>
-            <a class="logo-webstudio" href="/goit-markup-hw-02/index.html"
-                >Web<span class="logo-studio-header">Studio</span></a
-            >
-            <nav>
-                <ul>
-                    <li><a class="header-links" href="#">Agencja</a></li>
-                    <li>
-                        <a
-                            class="header-links"
-                            href="/goit-markup-hw-02/portfolio.html"
-                            >Portfolio</a
-                        >
-                    </li>
-                    <li><a class="header-links" href="#">Kontakt</a></li>
-                </ul>
-            </nav>
-            <div>
-                <a class="contacts-link-header" href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
+            <div class="container container-header">
+                <a class="logo-webstudio" href="/goit-markup-hw-02/index.html"
+                    >Web<span class="logo-studio-header">Studio</span></a
                 >
-                <a class="contacts-link-header" href="tel:+48111111111"
-                    >+48 111 111 111</a
-                >
+                <nav>
+                    <ul class="header-links-box list-style">
+                        <li><a class="header-links" href="#">Agencja</a></li>
+                        <li>
+                            <a
+                                class="header-links"
+                                href="/goit-markup-hw-02/portfolio.html"
+                                >Portfolio</a
+                            >
+                        </li>
+                        <li><a class="header-links" href="#">Kontakt</a></li>
+                    </ul>
+                </nav>
+                <div class="contacts-links-box">
+                    <a
+                        class="contacts-link-header"
+                        href="mailto:info@devstudio.com"
+                        >info@devstudio.com</a
+                    >
+                    <a class="contacts-link-header" href="tel:+48111111111"
+                        >+48 111 111 111</a
+                    >
+                </div>
             </div>
         </header>
         <main>
             <section>
-                <div class="primary-section">
+                <div class="primary-section container">
                     <h1 class="header-primary">
                         EFEKTYWNE ROZWIĄZANIA<br />DLA WASZEGO BIZNESU
                     </h1>
@@ -65,8 +69,8 @@
                 </div>
             </section>
             <section>
-                <div>
-                    <ul>
+                <div class="container">
+                    <ul class="list-style">
                         <li>
                             <h3 class="third-header">LOREM IPSUM</h3>
                             <p class="third-header-descripton">
@@ -103,9 +107,9 @@
                 </div>
             </section>
             <section>
-                <div>
+                <div class="container">
                     <h2 class="secondary-header">Czym się zajmujemy</h2>
-                    <ul>
+                    <ul class="list-style">
                         <li>
                             <img
                                 src="images/coding-1-img.jpg"
@@ -133,7 +137,7 @@
                     </ul>
                 </div>
             </section>
-            <section>
+            <section class="container">
                 <div>
                     <h2 class="secondary-header">Nasz zespół</h2>
                     <figure>
@@ -192,20 +196,24 @@
             </section>
         </main>
         <footer class="footer">
-            <a class="logo-webstudio" href="/goit-markup-hw-02/index.html"
-                >Web<span class="logo-studio-footer">Studio</span></a
-            >
-            <address class="address">
-                <p class="addres-company">
-                    m. Warszawa, Aleje Jerozolimskie 21
-                </p>
-                <a class="contacts-link-footer" href="mailto:info@example.com"
-                    >info@example.com</a
-                ><br />
-                <a class="contacts-link-footer" href="tel:+48111111111"
-                    >+48 111 111 111</a
+            <div class="container">
+                <a class="logo-webstudio" href="/goit-markup-hw-02/index.html"
+                    >Web<span class="logo-studio-footer">Studio</span></a
                 >
-            </address>
+                <address class="address">
+                    <p class="addres-company">
+                        m. Warszawa, Aleje Jerozolimskie 21
+                    </p>
+                    <a
+                        class="contacts-link-footer"
+                        href="mailto:info@example.com"
+                        >info@example.com</a
+                    ><br />
+                    <a class="contacts-link-footer" href="tel:+48111111111"
+                        >+48 111 111 111</a
+                    >
+                </address>
+            </div>
         </footer>
     </body>
 </html>
